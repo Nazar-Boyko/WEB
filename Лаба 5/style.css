@@ -1,0 +1,235 @@
+@import url(fonts/gunnyrewritten.css);
+
+body,
+html {
+    font-family: "Comfortaa", sans-serif;
+    height: 100%;
+    margin: 0;
+}
+
+h2 {
+    font-family: "Gunny Rewritten";
+    margin-bottom: 50px;
+    font-size: 36px;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#header {
+    display: flex;
+    font-family: "Gunny Rewritten";
+    font-size: 30px;
+    justify-content: center;
+    border-bottom: 2px solid #000;
+}
+
+
+
+
+.user-from-div, 
+#result-parent-id{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+form, 
+.result-div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    max-width: 75%;
+    height: 375px;
+    margin: 20px auto;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
+
+}
+
+#userForm label {
+    display: block;
+    margin-bottom: 8px;
+    color: #555;
+}
+
+#userForm input,
+button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#userForm button {
+    background-color: #7e7e7e;
+    color: #fff;
+    cursor: pointer;
+    width: 50%;
+    transition: background-color 0.4s;
+}
+
+button:hover {
+    background-color: #9a9a9a;
+}
+
+.test-container {
+    display: flex;
+}
+
+.quiz-container {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sidebar-border {
+    position: fixed;
+    padding: 15px;
+    right: 0;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    max-width: 400px;
+}
+
+.center-element {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.center-element h2{
+    margin: 0;
+}
+.first{
+    text-align: justify;
+    margin: 0;
+}
+
+.sidebar {
+    padding: 20px;
+    width: 30%;
+    max-height: 500px;
+}
+
+.sidebar button {
+    margin-top: 15px;
+    margin-bottom: 0px;
+    width: 130px;
+    border-radius: 15px;
+    font-family: "Comfortaa";
+
+
+}
+
+.result-div {
+
+    height: 200px;
+}
+
+.option {
+    flex: 1;
+    padding: 8px;
+    margin: 0 5px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    display: inline-block;
+}
+
+
+.options-container {
+    flex: 1;
+    border: 2px dashed #aaa;
+    margin: 10px;
+}
+
+.options-container .option {
+    margin-bottom: 5px;
+}
+
+.options-container:empty {
+    padding: 33px;
+}
+
+.options-container:not(:empty) {
+    padding: 10px;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+#container * {
+    margin: 5px;
+}
+
+.option--active {
+    opacity: 0.5;
+}
+
+.test {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    margin: 20px;
+    max-width: 600px;
+    width: 100%;
+
+}
+
+#test-drag-drop {
+    display: flex;
+    flex-direction: column;
+    height: 75%;
+}
+
+.test p {
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    margin: 0;
+    padding: 10px;
+    background-color: #ccc;
+}
+
+.test label {
+    margin: 10px;
+}
+
+.test input {
+    margin: 10px;
+}
+
+.select-list {
+    display: block;
+    padding: 10px;
+    margin: 20px;
+    font-size: 16px;
+    color: #333;
+    font-family: "Comfortaa";
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.select-list option {
+    padding: 10px;
+}
